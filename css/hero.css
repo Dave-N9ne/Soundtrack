@@ -1,0 +1,86 @@
+.hero {
+    margin-bottom: 475px;
+    padding-top: 180px;
+}
+.hero__content {
+    padding-left: 130px;
+    position: relative;
+    justify-content: space-between;
+    z-index: 8;
+}
+.hero__container {
+    position: relative;
+    z-index: 8;
+}
+.main-title {
+    margin-bottom: 34px;
+    max-width: 498px;
+    font-size: 3.75rem;
+    line-height: 1.2;
+}
+.hero__desc {
+    margin-bottom: 50px;
+    max-width: 405px;
+    line-height: 26px;
+    color: var(--desc-color-text);
+    opacity: 0.7;
+}
+.hero__register {
+    padding: 28px 28px 28px 40px;
+    justify-content: space-between;
+    position: relative;
+    min-width: 682px;
+    background: var(--white-color);
+    border-radius: 10px;
+    box-shadow: 0 30px 80px 0 
+              rgba(47, 65, 88, 0.2);
+}
+.hero__register::before {
+    content: url(../img/icons/hero-dots.svg);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translate(-50%, 50%);
+    z-index: -1;
+}
+.register__text {
+    justify-content: space-between;
+}
+.register__slogan,
+.register__email,
+.register__button {
+    display: inline-block;
+}
+.register__slogan,
+.register__button {
+    letter-spacing: 0.02em;
+}
+.register__slogan {
+    margin-bottom: 10px;
+    font-size: 13px;
+    line-height: 21px; 
+    color: var(--register-text-color);
+}
+.register__email {
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 30px; 
+    letter-spacing: 0.01em;
+    color: var(--dark-color);
+}
+.register__button {
+    margin: auto 0;
+    padding: 24px 64px 23px 65px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    line-height: 20px;
+    color: var(--white-color);
+    background-color: var(--violet-color);
+    border-radius: 10px;
+}
+.hero__wrapper {
+    position: absolute;
+    top: 10px;
+    right: 0;
+}

@@ -1,0 +1,66 @@
+.chat {
+    margin-bottom: 60px;
+}
+.chat .container {
+    margin: 0 auto;
+    padding: 0 120px 0 130px;
+    max-width: 1440px;
+}
+.chat__container {
+    justify-content: space-between;
+    gap: 30px;
+}
+.chat__article {
+    margin-top: 160px;
+}
+.chat__info {
+    position: relative;
+}
+.chat__info::before {
+    content: url(../img/icons/chat-Samantha-William.png);
+}
+.chat__wrapper {
+    max-height: 866px;
+    position: relative;
+}
+.message {
+    padding: 14px 30px;
+    width: fit-content;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    line-height: 1.57143;
+    color: var(--white-color);
+}
+.chat__samantha-message,
+.chat__karen-messages {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.chat__samantha-message,
+.karen-message__answer {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.chat__samantha-message {
+    top: 19.976905311%;
+    left: 24.712643678%;
+    width: initial;
+    max-width: 234px;
+    background-color: #7D6353;
+    border-radius: 24px 24px 0 24px;
+}
+.chat__karen-messages {
+    top: 58.891454965%;
+    left: 38.074712643%;
+    gap: 12px;
+}
+.karen-message {
+    max-width: 319px;
+    background-color: var(--violet-message-color);
+}
+.karen-message__greet {
+    border-radius: 24px;
+}
+.karen-message__answer {
+    border-radius: 24px 24px 24px 0;
+}

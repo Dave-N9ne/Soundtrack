@@ -1,0 +1,69 @@
+.case-study {
+    padding-bottom: 93px;
+}
+.case-study .container {
+    padding: 0 130px;
+}
+.case-study__container {
+    justify-content: space-between;
+    gap: 100px;
+}
+.case-study__article {
+    max-width: 394px;
+}
+.case-study__title {
+    margin-bottom: 21px;
+    font-size: 3.75rem;
+    line-height: 1.2;
+}
+.case-study__desc {
+    line-height: 1.85714;
+    letter-spacing: 0.02em;
+    color: #404852;
+}
+.case-study__item {
+    width: 600px;
+    color: var(--dark-color);
+ }
+.case-study__item:not(:last-child) {
+    padding-bottom: 49.5px;
+}
+.case-study__item:not(:first-child) {
+    padding-top: 50.5px;
+}
+.case-study__item:not(:last-child) {
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+}
+.item__grid {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    gap: 10px 77px;
+    grid-template-columns: auto 1fr 27px;
+    grid-template-rows: 1fr auto;
+    grid-template-areas: 'number label arrow'
+                         '. details .';
+}
+.case-study__number {
+    grid-area: number;
+    font-weight: 600;
+    font-size: 1.5625rem;
+    line-height: 1.4;
+    opacity: 0.34;
+}
+.case-study__label {
+    grid-area: label;
+    font-size: 2.5rem;
+    line-height: 1.75;
+    letter-spacing: 0.02em;
+}
+.case-study__arrow {
+    grid-area: arrow;
+    cursor: pointer;
+}
+.case-study__details {
+    grid-area: details;
+    align-self: start;
+    line-height: 1.64286;
+    opacity: 0.5;
+}

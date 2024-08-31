@@ -1,0 +1,18 @@
+:root {
+    --white-color: #fff;
+    --dark-color: #000;
+    --title-dark-color: #121212;
+    --register-text-color: #7d8186;
+    --beige-color: #F5F2EC;
+    --desc-color-text: #21383e;
+    --brown-text-color: #553C16;
+    --brown-message-color: #7D6353;
+    --violet-color: #725ba1;
+    --violet-message-color: #726985;
+    --line-color: #dedede;
+    --name-text-color: #273240;
+    --desc-text-color: #2c3a4b;
+    --green-color: #43B671;
+
+    --transition-properties: 0.3s ease-in-out;
+}

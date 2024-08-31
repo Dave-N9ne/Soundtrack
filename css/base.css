@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+@import './reset.css';
+@import './vars.css';
+@import './utils.css';
+@import './header.css';
+@import './hero.css';
+@import './chat.css';
+@import './videocall.css';
+@import './case-study.css';
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.875rem;
+    letter-spacing: 0.04em;
+}
+body._lock {
+    overflow: hidden;
+}
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+    color: var(--title-dark-color);
+    letter-spacing: -0.01em;
+}
+.container {
+    margin: 0 auto;
+    padding: 0 60px;
+    max-width: 1440px;
+}
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+/* ------------ ARTICLE ------------ */
+
+.article {
+    max-width: 440px;
+}
+.article__title,
+.article_line {
+    margin-bottom: 50px;
+}
+.article__title {
+    font-size: 50px;
+    line-height: 1.24;
+}
+.article_line {
+    max-width: 121px;
+    height: 1px;
+    background: var(--line-color);
+}
+.article__desc {
+    margin-bottom: 38px;
+    line-height: 1.85714;
+    letter-spacing: 0.02em;
+    max-width: 430px;
+}
+.article__info::before {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(-20%);
+}
+.article__name {
+    padding-left: 64px;
+    line-height: 1;
+    gap: 8px;
+}
+.article__full-name {
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 0.02em;
+    color: var(--name-text-color);
+}
+.article__post {
+    font-size: 12px;
+    line-height: 1;
+    letter-spacing: 0.04em;
+    color: var(--desc-text-color);
+    opacity: 0.5;
+}
+
+/* ------------ /ARTICLE ------------ */ 
