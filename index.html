@@ -141,7 +141,7 @@
                     </a>
                 </li>
             </ul>
-        </div>    <!-- container -->
+        </div>     <!-- container -->
     </header>
     <main class="main">
         <section id="hero" class="hero">
@@ -168,11 +168,16 @@
                     </article>
                 </div>    <!-- container -->
                 <div class="hero__wrapper">
-                    <img
-                     class="hero__img" 
-                     src="./img/hero-bg-women.png" 
-                     alt="Women using their gadgets"
-                     loading="lazy">
+                    <picture class="hero__img">
+                        <source
+                         srcset="./img/hero-bg-women.webp" 
+                         type="image/webp">
+                        <img
+                         src="./img/hero-bg-women.png" 
+                         alt="Women using their gadgets"
+                         loading="lazy">
+                    </picture>
+                    
                 </div>
             </div>
         </section>
@@ -194,11 +199,16 @@
                     </div>
                 </article>
                 <div class="chat__wrapper">
-                    <img
-                     src="./img/chat-image.png"
-                     alt="Two women texting with each other"
-                     class="chat__img"
-                     loading="lazy">
+                    <picture class="chat__img">
+                        <source
+                         srcset="./img/chat-image.webp" 
+                         type="image/webp">
+                        <img
+                         src="./img/chat-image.png"
+                         alt="Two women texting with each other"
+                         loading="lazy">
+                    </picture>
+                    
                     <p class="chat__samantha-message samantha-message message">
                         Hi Karen, I'm wandering is it possible to order  custom drawing?
                     </p>
@@ -216,11 +226,16 @@
         <section id="video-call" class="video-call">
             <div class="container video-call__container flex-x">
                 <div class="video-call__wrapper">
-                    <img
-                     src="./img/videocall-woman-with-laptop.png" 
-                     alt="A woman talking by using videocall" 
-                     class="video-call__img"
-                     loading="lazy">
+                    <picture class="video-call__img">
+                        <source
+                         srcset="./img/videocall-woman-with-laptop.webp"
+                         type="image/webp">
+                        <img
+                         src="./img/videocall-woman-with-laptop.png" 
+                         alt="A woman talking by using videocall" 
+                         loading="lazy">
+                    </picture>
+                   
                     <div class="video-call__card card center-y">
                         <div class="card__icon center-full">
                             <img
