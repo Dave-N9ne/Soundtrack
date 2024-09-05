@@ -1,5 +1,5 @@
   /* ------------HOVER-EFFECT------------ */
-
+ 
 @media (hover: hover) {
   .nav-link:hover {
     text-decoration: var(--nav-link-hover-effect);
