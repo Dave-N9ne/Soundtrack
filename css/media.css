@@ -102,35 +102,24 @@
   /* ------------HERO------------ */
 
   .hero {
-    margin-bottom: 100px;
-  }
-  .hero__content,
-  .hero__container,
-  .hero__wrapper {
-    position: static;
+    margin-bottom: 200px;
   }
   .hero__content {
     margin: 0 auto;
-    padding: 0 60px;
-    max-width: 802px;
-    flex-direction: column;
-    gap: 50px;
-  }
-  .hero .container {
-    padding: 0;
-  }
-  .hero__container {
-    flex-direction: column;
   }
   .hero__register {
-    min-width: auto;
     max-width: 682px;
   }
   .register__button {
     font-size: 0.875rem;
   }
   .hero__wrapper {
+    top: 120px;
+    right: 0;
     max-width: 100%;
+  }
+  .hero__img {
+    max-width: 810px;
   }
 
   /* ------------/HERO------------ */
@@ -260,6 +249,24 @@
     .hero__register::before {
         display: none;
     }
+      .hero__content,
+    .hero__container,
+    .hero__wrapper {
+      position: static;
+    }
+    .hero__content {
+      margin: 0 auto;
+      padding: 0 60px;
+      max-width: 802px;
+      flex-direction: column;
+      gap: 50px;
+    }
+    .hero .container {
+      padding: 0;
+    }
+    .hero__container {
+      flex-direction: column;
+    }
     .hero__content {
       margin: 0 auto;
       padding: 0 60px;
@@ -273,6 +280,9 @@
       font-size: 3.125rem;
       line-height: 1.1;
     }
+    .hero__register {
+      min-width: auto;
+    }
     .register__slogan {
       margin-bottom: 10px;
       font-size: 11px;
@@ -283,6 +293,9 @@
     .register__button {
       padding: 20px 58px;
       font-size: 0.75rem;
+    }
+    .hero__img {
+      max-width: 100%;
     }
 
     /* ------------/HERO------------ */
