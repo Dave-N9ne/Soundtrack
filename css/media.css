@@ -1,3 +1,24 @@
+  /* ------------HOVER-EFFECT------------ */
+
+@media (hover: hover) {
+  .nav-link:hover {
+    text-decoration: var(--nav-link-hover-effect);
+  }
+  .header-registration__link:hover {
+    text-decoration: var(--registration-link-hover-effect);
+  }
+}
+  @media (hover: none) {
+    .nav-link:active {
+      text-decoration: var(--nav-link-hover-effect);
+    }
+    .header-registration__link:active {
+      text-decoration: var(--registration-link-hover-effect);
+    }
+}
+
+  /* ------------/HOVER-EFFECT------------ */
+
 @media (max-width: 1599.98px) {
 
   /* ------------HERO------------ */

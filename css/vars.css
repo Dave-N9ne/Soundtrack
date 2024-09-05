@@ -15,4 +15,6 @@
     --green-color: #43B671;
 
     --transition-properties: 0.3s ease-in-out;
+    --nav-link-hover-effect: underline;
+    --registration-link-hover-effect: underline 2px var(--brown-text-color);
 }

@@ -12,6 +12,10 @@ if (arrows) {
     for (let index = 0; index < arrows.length; index++) {
         const arrow = arrows[index];
         arrow.addEventListener ('click', function (event) {
+            arrows.forEach (element => {
+                if(!element.contains(event.target))
+                element.parentElement.classList.remove('_open');
+            })
             arrow.parentElement.classList.toggle('_open');
         })
     }
