@@ -80,7 +80,7 @@ h6 {
     line-height: 1;
     letter-spacing: 0.04em;
     color: var(--desc-text-color);
-    opacity: 0.5;
+    opacity: 0.5; 
 }
 
 /* ------------ /ARTICLE ------------ */ 
