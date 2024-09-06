@@ -101,9 +101,6 @@
 
   /* ------------HERO------------ */
 
-  .hero {
-    margin-bottom: 200px;
-  }
   .hero__content {
     margin: 0 auto;
   }
@@ -246,6 +243,9 @@
 
     /* ------------HERO------------ */
 
+    .hero {
+      margin-bottom: 120px;
+    }
     .hero__register::before {
         display: none;
     }
@@ -293,9 +293,6 @@
     .register__button {
       padding: 20px 58px;
       font-size: 0.75rem;
-    }
-    .hero__img {
-      max-width: 100%;
     }
 
     /* ------------/HERO------------ */
