@@ -7,7 +7,7 @@ button.addEventListener ('click', function (event) {
     nav.classList.toggle('_active');
     document.body.classList.toggle('_lock');
 })
-
+ 
 if (arrows) {
     for (let index = 0; index < arrows.length; index++) {
         const arrow = arrows[index];
